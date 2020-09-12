@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app">
+            {{message}}
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <script>
+            var vm = new Vue({
+                el: '#app', //엘리먼트를 지정해줘야 해당하는 곳에 사용가능하게 된다.
+                data: {
+                    message: '엘리멘트를 지정해야 사용가능함!'
+                },
+                methods: {
+                    
+                },
+            
+            });
+
+            
+        </script>
+
+    </body>
+</html>
